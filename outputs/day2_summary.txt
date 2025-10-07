@@ -1,0 +1,32 @@
+
+# Day 2 Summary - MediScan-AI
+
+**Date:** 2025-10-07
+
+## Objectives Completed
+   Data preprocessing pipeline built
+   Class weights calculated (1.9448, 0.6730)
+   Data augmentation configured
+   5-Fold Cross Validation setup
+   Custom Dataset and DataLoaders created
+
+## Key Metrics
+- Training images: 5216
+- Test images: 624
+- Batch size: 32
+- K-Folds: 5
+
+## Augmentation Strategy
+- Random rotation (±15°)
+- Random horizontal flip (50%)
+- Random affine transformation
+- Color jitter (brightness & contrast)
+
+## Next Steps (Day 3)
+1. Build ResNet50 baseline model
+2. Implement training loop with class weights
+3. Train first fold as proof of concept
+4. Set up metrics tracking
+
+## Status
+   Day 2 Complete - Ready for Model Building

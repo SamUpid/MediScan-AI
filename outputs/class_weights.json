@@ -1,0 +1,9 @@
+{
+    "class_weights": [
+        1.9448,
+        0.673
+    ],
+    "normal_weight": 1.9448,
+    "pneumonia_weight": 0.673,
+    "ratio": 2.89
+}

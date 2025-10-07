@@ -1,0 +1,44 @@
+{
+    "data_info": {
+        "train_size": 5216,
+        "test_size": 624,
+        "num_classes": 2,
+        "class_names": [
+            "NORMAL",
+            "PNEUMONIA"
+        ],
+        "class_to_idx": {
+            "NORMAL": 0,
+            "PNEUMONIA": 1
+        }
+    },
+    "augmentation": {
+        "resize": 224,
+        "rotation_degrees": 15,
+        "horizontal_flip_prob": 0.5,
+        "translate": [
+            0.1,
+            0.1
+        ],
+        "scale": [
+            0.9,
+            1.1
+        ],
+        "brightness": 0.2,
+        "contrast": 0.2
+    },
+    "kfold": {
+        "n_folds": 5,
+        "shuffle": true,
+        "random_state": 42
+    },
+    "training": {
+        "batch_size": 32,
+        "num_workers": 2,
+        "pin_memory": true
+    },
+    "class_weights": {
+        "normal": 1.9448173005219984,
+        "pneumonia": 0.6730322580645162
+    }
+}
