@@ -1,0 +1,45 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                   DAY 3 SUMMARY - BASELINE MODEL                     ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ COMPLETED TASKS:
+   • ResNet50 architecture built with custom head
+   • Training pipeline implemented with class weights
+   • Learning rate scheduling configured
+   • Fold 1 trained for 15 epochs
+   • Comprehensive metrics calculated
+   • Visualizations generated
+
+ BASELINE RESULTS (Fold 1):
+   • Validation Accuracy: 97.22%
+   • Precision (macro):    95.74%
+   • Recall (macro):       97.54%
+   • F1-Score (macro):     96.58%
+   • Best Epoch:           13/15
+
+ PER-CLASS PERFORMANCE:
+   NORMAL:
+   • Precision: 92.16%
+   • Recall:    98.26%
+   • F1-Score:  95.11%
+   
+   PNEUMONIA:
+   • Precision: 99.32%
+   • Recall:    96.83%
+   • F1-Score:  98.06%
+
+ SAVED ARTIFACTS:
+   ✓ models/resnet50_fold_1_best.pth
+   ✓ outputs/fold1_learning_curves.png
+   ✓ outputs/fold1_confusion_matrix.png
+   ✓ outputs/fold1_baseline_metrics.json
+
+ SUCCESS CRITERIA CHECK:
+   ✅ Validation accuracy > 75%
+   ✅ Training/val losses decreased
+    Model trains without errors
+    Not predicting single class
+
+
+ Day 3 Complete - Ready for Cross-Validation!
