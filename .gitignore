@@ -32,3 +32,10 @@ Thumbs.db
 outputs/*.png
 models/*.pth
 !models/.gitkeep
+
+# Local environment
+mediscan_env/
+
+# Notebook outputs and visualizations
+notebooks/outputs/
+notebooks/visualizations/
